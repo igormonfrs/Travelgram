@@ -31,13 +31,11 @@
   display: flex;
   justify-content: space-between;
   font: var(--text-md);
- 
 }
 
 .profile {
   display: flex;
   gap: 32px;
-
 }
 
 .profile-text {
@@ -59,14 +57,14 @@
   align-items: center;
 }
 
-.info-list{
+.info-list {
   display: flex;
-  
+
   gap: 16px;
   flex-direction: column;
 }
 
-.info-item{
+.info-item {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -80,8 +78,27 @@ main {
   padding-block: 24px;
 }
 
-main img{
+main img {
   width: 286px;
   height: 286px;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  padding: 24px 32px;
+  justify-content: space-between;
+  align-items: center;
+  font: var(--text-md);
+}
+
+.footer-link {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-link a{
+  padding: 4px;
   
 }
