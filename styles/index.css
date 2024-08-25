@@ -30,6 +30,7 @@
   padding-block: 32px;
   display: flex;
   justify-content: space-between;
+  font: var(--text-md);
  
 }
 
@@ -48,11 +49,6 @@
   font: var(--text-lg);
   color: var(--text-color-primary, #313131);
   margin-bottom: 8px;
-}
-
-.profile-paragraph {
-  font: var(--text-md);
-  color: var(--text-color-secondary, #6c6c6c);
 }
 
 /* aside */
